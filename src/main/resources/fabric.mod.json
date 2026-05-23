@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "mouse-tilt-fix",
+	"version": "${version}",
+	"name": "Mouse Tilt Fix",
+	"description": "This client-side mod allows you to disable lateral mouse scrolling (horizontal scrolling by pushing your scroll wheel on supported mouses) entirely, or reverse its direction.",
+	"authors": [
+		{
+			"name": "Flavien Dussud",
+			"contact": {
+				"homepage": "https://flavien.dussud.org",
+				"modrinth": "https://modrinth.com/user/flavien",
+				"twitter": "https://twitter.com/flaviendussud",
+				"x": "https://x.com/flaviendussud"
+			}
+		}
+	],
+	"contact": {
+		"email": "mods+mousetiltfix@dussud.org",
+		"sources": "https://github.com/dussud/mouse-tilt-fix"
+	},
+	"license": "CC BY-SA 4.0",
+	"icon": "assets/mouse-tilt-fix/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"org.dussud.mouse_tilt_fix.MouseTiltFix"
+		],
+		"client": [
+			"org.dussud.mouse_tilt_fix.client.MouseTiltFixClient"
+		],
+		"ukulib": [
+			"org.dussud.mouse_tilt_fix.client.UkulibIntegration"
+		]
+	},
+	"mixins": [
+		"mouse-tilt-fix.mixins.json",
+		{
+			"config": "mouse-tilt-fix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"ukulib": "^1.10.2"
+	}
+}

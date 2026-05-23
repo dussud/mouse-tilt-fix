@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.mouse-tilt-fix": "Mouse Tilt Fix",
+  "modmenu.descriptionTranslation.mouse-tilt-fix": "This client-side mod allows you to disable lateral mouse scrolling (horizontal scrolling by tilting your scroll wheel on supported mouses) entirely, or reverse its direction.",
+  "modmenu.summaryTranslation.mouse-tilt-fix": "Disable lateral mouse scrolling in the hotbar",
+  "mouse-tilt-fix.config.title": "Lateral Scrolling Options",
+  "mouse-tilt-fix.option.lateralScrollingEnabled": "Enable lateral scrolling",
+  "mouse-tilt-fix.option.lateralScrollingDirectionReversed": "Reverse lateral scrolling direction"
+}

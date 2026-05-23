@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "org.dussud.mouse_tilt_fix.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MouseHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
