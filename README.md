@@ -4,5 +4,8 @@ This client-side mod allows you to disable lateral mouse scrolling (horizontal s
 ## Usage
 By default, the mod disables lateral scrolling. To re-enable it and reverse the lateral scrolling direction, you may edit the config file (`/.minecraft/config/mouse-tilt-fix.toml`) or use [Mod Menu](https://modrinth.com/mod/modmenu) to edit the config in-game.
 
+## TODO
+- Grey out the reverse lateral direction config option when lateral scrolling is disabled
+
 ### License
 This mod is licensed under the CC BY-SA 4.0 license. You may use it anywhere with attribution.
