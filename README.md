@@ -6,6 +6,7 @@ By default, the mod disables lateral scrolling. To re-enable it and reverse the 
 
 ## TODO
 - Grey out the reverse lateral direction config option when lateral scrolling is disabled
+- Port to ^1.20.2
 
 ### License
 This mod is licensed under the CC BY-SA 4.0 license. You may use it anywhere with attribution.
