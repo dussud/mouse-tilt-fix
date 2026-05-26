@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.horizontal-scrolling-fix": "Horizontal Scrolling Fix",
+  "modmenu.descriptionTranslation.horizontal-scrolling-fix": "This client-side mod allows you to disable horizontal mouse scrolling (introduced in 1.20.2) entirely, or reverse its direction.",
+  "modmenu.summaryTranslation.horizontal-scrolling-fix": "Disable horizontal mouse scrolling in the hotbar",
+  "mouse-tilt-fix.config.title": "Horizontal Scrolling Options",
+  "mouse-tilt-fix.option.horizontalScrollingEnabled": "Enable horizontal scrolling",
+  "mouse-tilt-fix.option.horizontalScrollingDirectionReversed": "Reverse horizontal scrolling direction"
+}

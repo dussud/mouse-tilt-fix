@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "mouse-tilt-fix",
+	"id": "horizontal-scrolling-fix",
 	"version": "${version}",
-	"name": "Mouse Tilt Fix",
-	"description": "This client-side mod allows you to disable lateral mouse scrolling (horizontal scrolling by pushing your scroll wheel on supported mouses) entirely, or reverse its direction.",
+	"name": "Horizontal Scrolling Fix",
+	"description": "This client-side mod allows you to disable horizontal mouse scrolling (introduced in 1.20.2) entirely, or reverse its direction.",
 	"authors": [
 		{
 			"name": "Flavien Dussud",
@@ -16,27 +16,27 @@
 		}
 	],
 	"contact": {
-		"email": "mods+mousetiltfix@dussud.org",
-		"sources": "https://github.com/dussud/mouse-tilt-fix"
+		"email": "mods+horizontalscrollingfix@dussud.org",
+		"sources": "https://github.com/dussud/horizontal-scrolling-fix",
+		"issues": "https://github.com/dussud/horizontal-scrolling-fix/issues"
 	},
 	"license": "CC BY-SA 4.0",
-	"icon": "assets/mouse-tilt-fix/icon.png",
+	"icon": "assets/horizontal-scrolling-fix/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
-			"org.dussud.mouse_tilt_fix.MouseTiltFix"
+			"org.dussud.horizontal_scrolling_fix.HorizontalScrollingFix"
 		],
 		"client": [
-			"org.dussud.mouse_tilt_fix.client.MouseTiltFixClient"
+			"org.dussud.horizontal_scrolling_fix.client.HorizontalScrollingFixClient"
 		],
 		"ukulib": [
-			"org.dussud.mouse_tilt_fix.client.UkulibIntegration"
+			"org.dussud.horizontal_scrolling_fix.client.UkulibIntegration"
 		]
 	},
 	"mixins": [
-		"mouse-tilt-fix.mixins.json",
 		{
-			"config": "mouse-tilt-fix.client.mixins.json",
+			"config": "horizontal-scrolling-fix.client.mixins.json",
 			"environment": "client"
 		}
 	],

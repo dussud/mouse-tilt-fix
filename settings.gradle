@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match your modid
-rootProject.name = 'mouse-tilt-fix'
+rootProject.name = 'horizontal-scrolling-fix'

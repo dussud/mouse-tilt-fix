@@ -1,7 +1,10 @@
 {
 	"required": true,
-	"package": "org.dussud.mouse_tilt_fix.mixin",
+	"package": "org.dussud.horizontal_scrolling_fix.client.mixin",
 	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MouseHandlerMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

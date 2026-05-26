@@ -28,7 +28,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"mouse-tilt-fix" {
+		"horizontal-scrolling-fix" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
